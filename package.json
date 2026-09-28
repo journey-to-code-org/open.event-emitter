@@ -1,0 +1,35 @@
+{
+  "name": "@journey-to-code/open-event-emitter",
+  "version": "1.0.0",
+  "description": "Minimal dependency-free event emitter with on, once, off, emit, and listener inspection.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "events",
+    "pubsub",
+    "emitter",
+    "utility"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
